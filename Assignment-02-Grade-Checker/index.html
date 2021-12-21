@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container">
+            <h2>Percentage Calculator</h2>
+            <form id="myForm" onsubmit="Checkpercentage(); return false">
+                <div class="i">
+                    <input type="text" placeholder="Please Enter Your name" id="name" />
+                </div>
+                <div class="i">
+                    <input type="number" placeholder="Please Enter Your English number" id="eng" />
+                </div>
+                <div class="i">
+                    <input type="number" placeholder="Please Enter Your Maths number" id="mth" />
+                </div>
+
+                <div class="i">
+                    <input type="number" placeholder="Please Enter Your urdu number" id="urdu" />
+                </div>
+                <div class="button">
+                    <button>Check Marks</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="containers">
+            <h3>Student Information</h3>
+
+            <div class="is">
+                <label>Student Name:</label>
+                <span id="nameof"></span>
+            </div>
+            <div class="is">
+                <label>English Marks:</label>
+                <span id="engof"></span>
+            </div>
+            <div class="is">
+                <label>Maths marks:</label>
+                <span id="mthof"></span>
+            </div>
+
+            <div class="is">
+                <label>urdu Marks:</label>
+                <span id="urduof"></span>
+            </div>
+            <div class="is">
+                <label>Total Marks:</label>
+                <span id="tmarks"></span>
+            </div>
+            <div class="is">
+                <label>Scored Percentage is:</label>
+                <span id="scoredpercentage"></span>
+            </div>
+            <div class="is">
+                <label>Scored Grade is:</label>
+                <span id="grade"></span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
